@@ -5,13 +5,13 @@ I will use Pandas to clean and filter the dataset, look at trends in specific wa
 Research Questions
 These are the specific questions I plan to answer:
 Which stations have the highest and lowest average values for selected water quality parameters?
-(Example parameters: pH, dissolved oxygen, electrical conductivity.)
+Example parameters: pH, dissolved oxygen, electrical conductivity.
 How do these measurements change over time at individual stations or in a region?
-(Using date filtering and line plots.)
+Using date filtering and line plots.
 Which stations collect the most samples, and how has sampling effort changed over time?
-(groupby + count.)
+Using groupby + count.
 Do any parameters tend to vary together or show similar patterns?
-(Using merges and basic correlation analysis.)
+Using merges and basic correlation analysis.
 Methods
 I will use the following techniques:
 Data cleaning and filtering with Pandas
