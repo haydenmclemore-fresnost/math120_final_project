@@ -4,7 +4,7 @@ For my final project, I am analyzing a portion of the **California Department of
 
 ## Project Focus
 
-I will use Pandas to clean and filter the dataset, look at trends in specific water quality parameters, and create simple visualizations. The project stays entirely within class material: filtering, groupby operations, merges, descriptive statistics, and Plotly charts.
+I will use Pandas to clean and filter the dataset, look at trends in specific water quality parameters, and create simple visualizations using class materials like: filtering, groupby operations, merges, descriptive statistics, and Plotly charts.
 
 ## Research Questions
 
