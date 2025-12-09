@@ -1,17 +1,30 @@
-# California Water Quality Analysis  
+# California Water Quality Analysis – MATH 120 (Rough Draft)
 
-## Project Overview
-This project analyzes California’s statewide **Discrete Water Quality** dataset from the Department of Water Resources (DWR). The dataset contains over 4.6 million measurements collected from monitoring stations across the state. My goal is to clean and explore a workable subset of this huge dataset and create visualizations and summaries that help show how different water-quality parameters vary across regions, stations, and water-year types. All analysis uses Python tools we learned this semester, including Pandas, groupby, filtering, and Plotly.
+This project analyzes California water quality data from the California Department of Water Resources (DWR).  
+The purpose of this rough draft is to show a clear plan, working code, a reproducible repository, and meaningful progress toward the final project.
 
-## Project Structure
-```
-math120_final_project/
-├── data_raw/ # Raw or partially downloaded data subsets
-├── data/ # Cleaned or reduced datasets created by the notebook
-├── src/ # Optional helper scripts
-│ ├── init.py
-│ ├── cleaning.py # Data cleaning utilities
-│ └── analysis.py # Summary & plotting helper functions
-├── notebook.ipynb # Main analysis notebook
-└── README.md # This file
-```
+## Research Focus
+The analysis focuses on three common water quality parameters:
+- pH
+- Dissolved Oxygen
+- Electrical Conductance
+
+Main questions include how these parameters vary across stations, how they change over time, how frequently stations are sampled, and whether any parameters are correlated.
+
+## Data Source
+Data is taken from the California Open Data Portal (DWR):
+- Stations dataset (station metadata)
+- Lab/Field Results dataset (individual water quality measurements)
+
+The notebook loads the full dataset directly from the web using CSV URLs, so no manual downloads are required.
+
+## Current Status
+- Data loads successfully without Google Drive
+- Cleaning and merging steps are complete
+- Core analyses (averages, trends, sampling effort, correlations) are implemented
+- Notebook runs end-to-end for peer review
+
+## How to Run
+Open `MATH120_Final_Project.ipynb` in Colab or Jupyter and run all cells.  
+The data will download automatically from the source.
+
