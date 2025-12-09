@@ -31,7 +31,3 @@ I will use the following techniques:
 - `groupby` and `agg` for summary statistics  
 - Merging datasets when needed  
 - Visualizing findings using Plotly (line charts, bar charts, histograms)
-
-## Why This Project Works
-
-The dataset is large, but filtering it makes it easy to handle while still providing interesting real-world insights. All analysis will rely on tools from the course, and the questions can be answered clearly using straightforward Python code.
