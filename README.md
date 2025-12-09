@@ -26,5 +26,5 @@ The notebook loads the full dataset directly from the web using CSV URLs, so no 
 
 ## How to Run
 Open `MATH120_Final_Project.ipynb` in Colab or Jupyter and run all cells.  
-The data will download automatically from the source.
+The data will download automatically.
 
