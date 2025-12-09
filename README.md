@@ -1,4 +1,4 @@
-# California Water Quality Analysis – MATH 120 (Rough Draft)
+# California Water Quality Analysis
 
 This project analyzes California water quality data from the California Department of Water Resources (DWR).  
 The purpose of this rough draft is to show a clear plan, working code, a reproducible repository, and meaningful progress toward the final project.
